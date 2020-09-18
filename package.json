@@ -1,6 +1,5 @@
 {
   "name": "justin-webapp",
-  "homepage": "https://jsuh17.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,11 +12,12 @@
     "react-helmet": "^6.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "homepage": "https://jsuh17.github.io"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
