@@ -1,0 +1,60 @@
+.About {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .About-background {
+    background-image: url(./about_background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+  }
+  .About-dummy {
+    width: 1450px;
+    height: 740px;
+  }
+  .About-content {
+    position: relative;
+    left: -100px;
+    top: 200px;
+  }
+  .About-name {
+    width: 100%;
+    font-family: Assistant;
+    font-size: 25pt;
+    color: #04204A;
+    position: relative;
+    top: 200px;
+  }
+  .About-picture {
+    height: 280px;
+    width: 280px;
+    pointer-events: none;
+    user-select: none;
+    float: left;
+    clip-path: circle();
+    shape-outside: circle(45%);
+  }
+  .About-blurb {
+    height: 250px;
+    width: 850px;
+    font-family: Nanum Gothic;
+    font-size: 13pt;
+    line-height: 22pt;
+    letter-spacing: .1pt;
+    pointer-events: none;
+    user-select: none;
+    text-align: left;
+    position: relative;
+    top:-10px;
+    left:60px;
+  }
+  .circle {
+    clip-path: circle();
+    shape-outside: circle();
+    padding: 30px;
+    background: black;
+    float:left;
+  }

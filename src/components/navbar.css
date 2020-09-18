@@ -1,0 +1,154 @@
+.NavBar {
+    text-align:center;
+    top: 30px;
+    position: absolute;
+    width: 100%;
+  }
+  .NavBar-logo {
+    width: calc(100% / 20);
+    height: calc(100% / 20);;
+    padding-left: calc(100% / 30);
+    padding-right: calc(100% / 30);
+    user-select: none;
+    vertical-align: 30%;  
+  }
+  .NavBar-accolades,
+  .NavBar-about,
+  .NavBar-projects,
+  .NavBar-contact {
+    width: calc(100% / 5);
+    display: inline-block;
+    vertical-align: 40%;   
+    text-align:center;
+    text-decoration: none;
+    user-select: none;
+    font-size: 22pt;
+    font-family: AppleGothic;
+    color: #505050;
+  }
+  .NavBar-accolades > .accolades {
+    width: inherit;
+    height: inherit;
+    text-align:center;
+    text-decoration: none;
+    user-select: none;
+    font-size: 22pt;
+    font-family: AppleGothic;
+    color: #505050;
+    position:relative;
+  }
+
+  .NavBar-accolades > .accolades:hover {
+    color: #012F88;
+  }
+  .NavBar-accolades > .accolades::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    height: 2px;
+    background-color: #012F88;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+  }
+  .NavBar-accolades > .accolades:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  .NavBar-about > .about {
+    width: inherit;
+    height: inherit;
+    text-align:center;
+    text-decoration: none;
+    user-select: none;
+    font-size: 22pt;
+    font-family: AppleGothic;
+    color: #505050;
+    position:relative;
+  }
+
+  .NavBar-about > .about:hover {
+    color: #04204A;
+  }
+  .NavBar-about > .about::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    height: 2px;
+    background-color: #04204A;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+  }
+  .NavBar-about > .about:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  .NavBar-projects > .projects {
+    width: inherit;
+    height: inherit;
+    text-align:center;
+    text-decoration: none;
+    user-select: none;
+    font-size: 22pt;
+    font-family: AppleGothic;
+    color: #505050;
+    position:relative;
+  }
+
+  .NavBar-projects > .projects:hover {
+    color: #1D5B9B;
+  }
+  .NavBar-projects > .projects::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    height: 2px;
+    background-color: #1D5B9B;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+  }
+  .NavBar-projects > .projects:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .NavBar-contact > .contact {
+    width: inherit;
+    height: inherit;
+    text-align:center;
+    text-decoration: none;
+    user-select: none;
+    font-size: 22pt;
+    font-family: AppleGothic;
+    color: #505050;
+    position:relative;
+  }
+
+  .NavBar-contact > .contact:hover {
+    color: #114895;
+  }
+  .NavBar-contact > .contact::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    height: 2px;
+    background-color: #114895;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+  }
+  .NavBar-contact > .contact:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
