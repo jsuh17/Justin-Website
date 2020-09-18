@@ -12,9 +12,9 @@
     "react-helmet": "^6.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
-    "homepage": "https://jsuh17.github.io"
+    "react-scripts": "3.4.3"
   },
+  "homepage": "https://jsuh17.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
