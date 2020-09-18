@@ -1,5 +1,6 @@
 {
   "name": "justin-webapp",
+  "homepage": "https://myusername.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
