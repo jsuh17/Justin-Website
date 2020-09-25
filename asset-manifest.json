@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/justin-website/static/css/main.c589bf10.chunk.css",
-    "main.js": "/justin-website/static/js/main.a555b98f.chunk.js",
-    "main.js.map": "/justin-website/static/js/main.a555b98f.chunk.js.map",
+    "main.css": "/justin-website/static/css/main.67c6ab1b.chunk.css",
+    "main.js": "/justin-website/static/js/main.3314b541.chunk.js",
+    "main.js.map": "/justin-website/static/js/main.3314b541.chunk.js.map",
     "runtime-main.js": "/justin-website/static/js/runtime-main.782ffe89.js",
     "runtime-main.js.map": "/justin-website/static/js/runtime-main.782ffe89.js.map",
-    "static/js/2.78445610.chunk.js": "/justin-website/static/js/2.78445610.chunk.js",
-    "static/js/2.78445610.chunk.js.map": "/justin-website/static/js/2.78445610.chunk.js.map",
+    "static/js/2.2235d750.chunk.js": "/justin-website/static/js/2.2235d750.chunk.js",
+    "static/js/2.2235d750.chunk.js.map": "/justin-website/static/js/2.2235d750.chunk.js.map",
     "index.html": "/justin-website/index.html",
-    "precache-manifest.9801807066df2483fd2e3f63052e663b.js": "/justin-website/precache-manifest.9801807066df2483fd2e3f63052e663b.js",
+    "precache-manifest.b2eb8e3cf89da948fab43014142d8e3d.js": "/justin-website/precache-manifest.b2eb8e3cf89da948fab43014142d8e3d.js",
     "service-worker.js": "/justin-website/service-worker.js",
-    "static/css/main.c589bf10.chunk.css.map": "/justin-website/static/css/main.c589bf10.chunk.css.map",
-    "static/js/2.78445610.chunk.js.LICENSE.txt": "/justin-website/static/js/2.78445610.chunk.js.LICENSE.txt",
+    "static/css/main.67c6ab1b.chunk.css.map": "/justin-website/static/css/main.67c6ab1b.chunk.css.map",
+    "static/js/2.2235d750.chunk.js.LICENSE.txt": "/justin-website/static/js/2.2235d750.chunk.js.LICENSE.txt",
     "static/media/About.css": "/justin-website/static/media/about_background.27ed9cf6.png",
     "static/media/about_picture.svg": "/justin-website/static/media/about_picture.7abe9edb.svg",
-    "static/media/Accolades.css": "/justin-website/static/media/accolades_background.96d5daf5.png",
+    "static/media/Accolades.css": "/justin-website/static/media/accolades_background.90824c99.svg",
     "static/media/cloud.svg": "/justin-website/static/media/cloud.6376f5e8.svg",
     "static/media/Contact.css": "/justin-website/static/media/contact_background.60090cb7.png",
     "static/media/dpoy.svg": "/justin-website/static/media/dpoy.1daa0b06.svg",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.782ffe89.js",
-    "static/js/2.78445610.chunk.js",
-    "static/css/main.c589bf10.chunk.css",
-    "static/js/main.a555b98f.chunk.js"
+    "static/js/2.2235d750.chunk.js",
+    "static/css/main.67c6ab1b.chunk.css",
+    "static/js/main.3314b541.chunk.js"
   ]
 }
